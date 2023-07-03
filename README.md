@@ -38,17 +38,18 @@ You can change this configs on the env files;
 - [Fuel Core env](./envs/fuel_core.env)
 - [L1 env](./envs/l1_chain.env)
 
-### Defaults;
+## Change HOST ports;
 
-These as the default values for ports
+With this set of env variables you can change in witch port L1 and FuelCore will be bind to the host env.
+
+This is the list of envs and the default values assigned to it;
 ```bash
 L1_CHAIN_HTTP_PORT=9545
 DEPLOYMENTS_PORT=8080
 FUEL_CORE_HTTP_PORT=4000
 ```
-### Local variables
 
-You can also use local veriables exposed for the process, example;
+You can change this by exposing on local variables example;
 ```bash
 L1_CHAIN_HTTP_PORT=9545 docker-compose up
 ```
