@@ -1,3 +1,7 @@
+# ⚠️ Archival Notice
+
+This repo has been migrated to https://github.com/FuelLabs/fuel-bridge
+
 # Fuel Development Environment
 
 This project runs a local Fuel development environment with both an L1 node and a Fuel node.
